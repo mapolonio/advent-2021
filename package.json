@@ -1,0 +1,35 @@
+{
+  "name": "advent-2021",
+  "version": "1.0.0",
+  "description": "Advent of code 2021",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "engines": {
+    "node": "16",
+    "npm": "8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapolonio/advent-2021.git"
+  },
+  "author": "mapolonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapolonio/advent-2021/issues"
+  },
+  "homepage": "https://github.com/mapolonio/advent-2021#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
