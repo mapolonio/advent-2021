@@ -4,7 +4,8 @@
   "description": "Advent of code 2021",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "create-day": "ts-node scripts/create-day.ts"
   },
   "engines": {
     "node": "16",
