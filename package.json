@@ -7,7 +7,8 @@
     "start": "ts-node index.ts",
     "start:debug": "node --inspect-brk -r ts-node/register index.ts",
     "create-day": "ts-node scripts/create-day.ts",
-    "test": "mocha -r ts-node/register"
+    "test": "mocha -r ts-node/register",
+    "test:debug": "mocha -r ts-node/register --inspect-brk"
   },
   "engines": {
     "node": "16",
