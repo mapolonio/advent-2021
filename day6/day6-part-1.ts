@@ -72,3 +72,4 @@ const main: DayFunction = async (inputPath) => {
 };
 
 export default main;
+export { countFish, inputParser, loadInput, simulateFishSchool };
