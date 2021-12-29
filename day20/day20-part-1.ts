@@ -15,7 +15,7 @@ export const inputParser = (inputString: string): InputData => {
   };
 };
 
-const processImage = (inputData: InputData, times: number): string[] => {
+export const processImage = (inputData: InputData, times: number): string[] => {
   const { algorithm, image } = inputData;
   const margin = 2;
   let result: string[] = [...image];
@@ -70,7 +70,7 @@ const processPixel = (
   return algorithm.charAt(parseInt(binary, 2));
 };
 
-const countLitPixels = (image: string[]): number => {
+export const countLitPixels = (image: string[]): number => {
   let total = 0;
 
   for (const row of image) {
@@ -83,6 +83,7 @@ const countLitPixels = (image: string[]): number => {
 
   return total;
 };
+
 const main: DayFunction = async (inputPath) => {
   const inputData = await loadInput(inputPath, inputParser);
   const processedImage = processImage(inputData, 2);
